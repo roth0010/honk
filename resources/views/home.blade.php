@@ -3,7 +3,7 @@
 @section('content')
     <div class="container-fluid">
         <h1 class="text-black-50">Welcome to Honk!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        <p> 🦆 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua. Eu sem integer vitae justo. Nunc consequat interdum varius sit amet mattis vulputate enim
             nulla. Vulputate dignissim suspendisse in est. Sed adipiscing diam donec adipiscing tristique risus nec
             feugiat. Viverra aliquet eget sit amet tellus cras adipiscing enim. Facilisis leo vel fringilla est

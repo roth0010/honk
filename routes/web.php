@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MissedCallController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,6 +21,12 @@ Route::get('/', function () {
 Route::get('beans', function () {
     return view('layouts.beans_page');
 });
+
+Route::get('server', function () {
+    abort(500);
+})->name('server');
+
+Route::resource('/missedCalls', MissedCallController::class);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
