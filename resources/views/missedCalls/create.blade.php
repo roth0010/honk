@@ -11,22 +11,22 @@
             <div style="margin-bottom: .5rem">
                 <label>Phone Number</label>
                 <div class="control">
-                    <input name="phoneNumber" class="input-group form-control @error('title') border-danger @enderror"
-                           type="text" placeholder="+1 234 567 8910" value="{{ old('name') }}">
+                    <input name="phoneNumber" class="input-group form-control @error('phoneNumber') border-danger @enderror"
+                           type="text" placeholder="+1 (234) 567 8910" value="{{ old('phoneNumber') }}">
                 </div>
-                @error('name')
-                <p class="danger">{{ $message }}</p>
+                @error('phoneNumber')
+                <p class="text-danger">{{ $message }}</p>
                 @enderror
             </div>
 
             <div style="margin-bottom: .5rem">
                 <label class="label">First Name</label>
                 <div class="control">
-                    <input name="firstName" class="input-group form-control @error('title') border-danger @enderror"
-                           type="text" placeholder="First-Name" value="{{ old('name') }}">
+                    <input name="firstName" class="input-group form-control @error('firstName') border-danger @enderror"
+                           type="text" placeholder="First Name" value="{{ old('firstName') }}">
                 </div>
-                @error('name')
-                <p class="danger">{{ $message }}</p>
+                @error('firstName')
+                <p class="text-danger">{{ $message }}</p>
                 @enderror
             </div>
 
@@ -34,22 +34,22 @@
                 <label>Last Name</label>
                 <div class="control">
                     <input name="lastName"
-                           class="input-group form-control @error('excerpt') border-danger @enderror"
-                           type="text" placeholder="Last-Name" value="{{ old('thud') }}">
+                           class="input-group form-control @error('lastName') border-danger @enderror"
+                           type="text" placeholder="Last Name" value="{{ old('lastName') }}">
                 </div>
-                @error('thud')
-                <p class="danger">{{ $message }}</p>
+                @error('lastName')
+                <p class="text-danger">{{ $message }}</p>
                 @enderror
             </div>
 
             <div style="margin-bottom: .5rem">
                 <label>Region</label>
                 <div>
-                    <input name="region" class="input-group form-control @error('body') border-danger @enderror"
-                           type="text" placeholder="Earth" value="{{ old('wombat') }}">
+                    <input name="region" class="input-group form-control @error('region') border-danger @enderror"
+                           type="text" placeholder="Earth" value="{{ old('region') }}">
                 </div>
-                @error('wombat')
-                <p class="danger">{{ $message }}</p>
+                @error('region')
+                <p class="text-danger">{{ $message }}</p>
                 @enderror
 
             </div>
