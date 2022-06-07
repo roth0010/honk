@@ -22,6 +22,10 @@ Route::get('beans', function () {
     return view('layouts.beans_page');
 });
 
+Route::get('weather', function () {
+    return view('weather.show');
+})->name('weather');
+
 Route::get('server', function () {
     abort(500);
 })->name('server');

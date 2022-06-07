@@ -8,9 +8,9 @@
         <i class="nav-icon fas fa-snowman"></i>
         <p>Missed Calls</p>
     </a>
-    <a href="{{ route('home') }}" class="nav-link active">
-        <i class="nav-icon fas fa-toilet"></i>
-        <p>Toilet</p>
+    <a href="{{ route('weather') }}" class="nav-link active">
+        <i class="nav-icon fas fa-cloud"></i>
+        <p>Weather</p>
     </a>
     <a href="{{ route('home') }}" class="nav-link active">
         <i class="nav-icon fas fa-biohazard"></i>
