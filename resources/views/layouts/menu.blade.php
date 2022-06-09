@@ -12,9 +12,9 @@
         <i class="nav-icon fas fa-cloud"></i>
         <p>Weather</p>
     </a>
-    <a href="{{ route('home') }}" class="nav-link active">
-        <i class="nav-icon fas fa-biohazard"></i>
-        <p>Chernobyl</p>
+    <a href="https://www.youtube.com/watch?v=6n3pFFPSlW4" class="nav-link active">
+        <i class="nav-icon fas fa-bus"></i>
+        <p>Rickroll</p>
     </a>
     <a href="{{ route('home') }}" class="nav-link active">
         <i class="nav-icon fas fa-cat"></i>
