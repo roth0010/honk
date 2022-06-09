@@ -89,7 +89,7 @@ document.getElementById('region').onchange = function() {
                 areaDesc.innerHTML = '<strong>Affected Areas: </strong>' + alertData.properties.areaDesc
                 margin.appendChild(areaDesc)
 
-                // create the area description text
+                // create the sender name text
                 let smallSenderName = document.createElement('small')
                 let senderName = document.createElement('p')
                 senderName.innerHTML = 'Reporting Station: ' + alertData.properties.senderName
@@ -112,7 +112,7 @@ document.getElementById('region').onchange = function() {
                     margin.appendChild(smallEnds)
                 }
 
-                // Final Append Child
+                // Appends everything to the DOM
                 newAlert.appendChild(margin)
                 alerts.append(newAlert)
             }
